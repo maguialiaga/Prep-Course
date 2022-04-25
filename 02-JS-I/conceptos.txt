@@ -1,1 +1,81 @@
-Hola soy magui 
+[Variables]
+Las variables son cajas en donde podemos guardar cualquier dato como: números, palabras, cadena de palabras, etc.
+Antes de guardar cosas dentro de las cajas, es necesario etiquetar las mismas con un nombre, que especifique, en lo posible,
+lo que va a llevar dentro. Luego de su nombre, podemos definir lo que va a ir dentro con el simbolo de asignación (=) igual.
+
+Ejemplo: 
+var cajaDeManzanas = 10
+
+Una vez empaquetada la caja, esta puede ser utilizada tan solo por su nombre, sin necesidad de
+mostrar lo que lleva dentro, tan solo con invocarla. 
+
+Por ejemplo:
+
+var cajaDeManzanas = 10 // Especifica que dentro de esta caja se enceuntran 10 manzanas
+var cajaDeNaranjas = 5 // Especifica que dentro de la caja se almacenan 5 naranjas
+
+Luego de definir mis cajas, puedo solo nombrarlas por sus nombres y por default su valor viene consigo:
+
+cajaDeManzanas + cajaDeNaranjas = 15 // Por ejemplo, acá sabemos que se suman 10 manzanas con 5 naranjas,
+                                        y sabemos el total de la suma de amabas cajas.
+
+Lo bueno de estas cajas es que, el dato que guarda, se puede alterar y cambiar por completo
+si nosotros lo deseamos.
+
+
+
+[String]
+Una String es la union de caracteres que funcionan como eslabones en una cadena, es decir, la union de caracteres como
+por ejemplo cadena de palabras, texto, los cuales dentro de un espacio entre comillas (" ") forman lo que se denomina un String.
+Ejemplo de diferentes cadenas de texto: "Hola", "Esto es una cadena de caracteres", "Tengo 1.50 de miopia".
+Para poder unir dos cadenas o mas se debe unir a traves del símbolo +: "Hola" + "mi nombre es Magdalena". 
+A esto último lo llamamos concatenación, el cual nos da como resultado una sola cadena de texto: "Hola mi nombre es Magdalena".
+
+
+
+
+[Funciones] (argumentos, return)
+Una funcion encapsula y resume dentro de sí misma un código. 
+La funcion guarda adentro algo que va a servir para resolver alguna tarea en particular. 
+Al escribir mi código dentro de mi función entre corchetes {}, el mimso me promete que va a realizar algo luego
+de que lo invoque.
+
+Una funcion siempre empieza con al keyword function, segui por un espacio y el nombre de la misma, que tiene que 
+describir lo que va hacer en lo posible. 
+
+La función puede o no tener antes del código un valor o una variable al cual llamamos argumento. Pueden tener varios
+argumentos y van a ir dentro de parentesis ().
+
+
+
+[Declaraciones] (if)
+Cuando utlizamos la sentencia "if" lo que se quiere realizar es poner una condición para realizar algo específico. Por ejemplo:
+
+Solo te voy a dar un premio, si (if) me lavas el auto.
+
+La condición en este caso es: lavar el auto. 
+Lo que promete dar o devolver es: un premio.
+
+La sentencia "if" nos permite trabajar bajo una condición. Si algo sucede, entonces se ejecuta un bloque de código
+pero solo si esta condicion sucede.
+
+
+
+
+[Valores booleanos] (true y false)
+Los valores booleanos se resumen en verdadero (true) o falso (false).
+Cuando algo es verdadero es por que se cumple, significa "si" o un 1 para la compu,
+En cambio cuando algo es faslo se considera que algo no se esta cumpliendo, significa un "no" o un 0 para la compu.
+Por ejemplo:
+
+1 + 1 = 2
+true
+
+1 > 2 
+false
+
+5 < 0 
+false 
+
+4 + 4 = 8
+true
