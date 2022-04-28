@@ -1,0 +1,37 @@
+[FOR]
+El bucle for nos ayuda a recorrer el código de acuerdo a la cantidad de iteraciones 
+que se necesiten. El bucle evalúa expresiones una y otra vex hasta que devuelve lo que 
+estamos buscando o se detiene despues de cierto momento. 
+Este bucle tiene un sintaxis unica:
+
+Empieza con la palabra "for", abro parentesis y declaro una variable, esto es sobre lo
+que se repetiá el bucle, después tendremos una expresión condicional. El ciclo continuará
+sucediendo hasta que la declaración sea false. Termina con la incrementación de la variable.
+Las tres declaraciones estan separadas por un punto y coma. 
+
+for (let i = 0; i < 10; i++) {
+    // Bloque de Código que me va a devolver algo hasta que se termine el ciclo.
+     console.log (i)ñ
+}
+
+
+
+OPERADORES LÓGICOS
+
+[&&]
+Este operador lógico se lo conoce como AND o Y. Lo que hace es evaluar entre dos expresiones
+de las cuales, si AMBAS expresiones son TRUE, me devolvera verdadero. Si alguna de las dos es FALSE 
+o ambas, me devolvera falso.
+
+if (100 > 10 && 10 === 10) {
+    // Acá ambas expresiones son TRUE, por eso es que el código de va a ejecutar.
+} 
+
+[||]
+Este operador lógico se lo conoce como OR u O. Devolverá TRUE si una de las expresiones
+(o ambas) son verdaderas. Devolverá FALSE si AMBAS expresiones son falsas.
+
+
+[!]
+Este operador es el NOT o NO. Este actua como un operador que devolverá el valor booleano
+opuesto de lo que se le pasa. 
